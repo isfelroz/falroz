@@ -41,3 +41,6 @@ next-env.d.ts
 
 # eslinter
 .eslintrc.js
+
+# vscode
+.vscode
