@@ -1,0 +1,40 @@
+{
+  "navigation": {
+    "menu": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "About",
+        "href": "/about"
+      },
+      {
+        "label": "Works",
+        "href": "/works"
+      },
+      {
+        "label": "Resume",
+        "href": "/resume"
+      }
+    ]
+  },
+  "socials": [
+    {
+      "type": "github",
+      "href": "/"
+    },
+    {
+      "type": "npm",
+      "href": "/"
+    },
+    {
+      "type": "twitter",
+      "href": "/"
+    },
+    {
+      "type": "linkedin",
+      "href": "/"
+    }
+  ]
+}
