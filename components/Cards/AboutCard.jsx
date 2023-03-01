@@ -11,6 +11,7 @@ export default ({ title, description, avatar }) => {
           width={avatar?.width}
           height={avatar?.height}
           alt={avatar?.alt}
+          loading="lazy"
         />
       </div>
       <div className="flex flex-col md:flex-row md:justify-between items-end gap-6 md:gap-0">

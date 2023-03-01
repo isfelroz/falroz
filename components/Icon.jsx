@@ -13,7 +13,8 @@ import { BsArrowUpRightCircle } from 'react-icons/bs'
 
 export default ({ type, size, hover = false }) => {
   if (type === 'react') return <SiReact size={size} />
-  if (type === 'threejs') return <SiThreedotjs size={'40px'} />
+  if (type === 'threejs')
+    return <SiThreedotjs className="translate-x-1" size={'40px'} />
   if (type === 'nextjs') return <TbBrandNextjs size={size} />
   if (type === 'tailwind') return <SiTailwindcss size={size} />
   if (type === 'javascript') return <SiJavascript size={size} />
