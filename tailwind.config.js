@@ -20,6 +20,9 @@ module.exports = {
         'primary-ligth': '#E98A77',
         'primary-dark': '#9E4B88',
       },
+      fontSize: {
+        '12xl': ['12rem', '12rem'],
+      },
       fontFamily: {
         DMSans: ['DM Sans', 'sans-serif'],
         Aclonica: ['Aclonica', 'sans-serif'],

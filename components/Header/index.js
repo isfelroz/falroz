@@ -15,7 +15,7 @@ export default function Header({ menu }) {
             <div className="hidden lg:block m-auto">
               <NavLinks links={menu} classes="gap-24" />
             </div>
-            <ButtonLink to="/">Get in Touch</ButtonLink>
+            <ButtonLink to="/contact">Get in Touch</ButtonLink>
           </div>
           <MenuResoponsive>
             {menu && menu?.length && (
