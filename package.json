@@ -1,6 +1,6 @@
 {
-  "name": "falroz",
-  "version": "0.0.1",
+  "name": "@falroz/falroz",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
