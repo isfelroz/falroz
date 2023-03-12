@@ -17,20 +17,7 @@ export default function Header({ menu }) {
             </div>
             <ButtonLink to="/contact">Get in Touch</ButtonLink>
           </div>
-          <MenuResoponsive>
-            {menu && menu?.length && (
-              <ul className="flex flex-col gap-24 h-full justify-center">
-                {menu.map((link, key) => (
-                  <li
-                    key={key}
-                    className="text-white drop-shadow font-bold uppercase text-4xl text-center"
-                  >
-                    <Link href={link.href}>{link.label}</Link>
-                  </li>
-                ))}
-              </ul>
-            )}
-          </MenuResoponsive>
+          <MenuResoponsive links={menu} />
         </div>
       </Container>
     </section>
