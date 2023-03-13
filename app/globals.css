@@ -28,13 +28,18 @@
 }
 
 :root {
-  --shadow1: rgba(0, 0, 0, 0.25) 4px 4px 4px, rgba(247, 244, 244, 0.02) -4px -4px 10px ;
+  --shadow1: rgba(0, 0, 0, 0.25) 4px 4px 4px,
+    rgba(247, 244, 244, 0.02) -4px -4px 10px;
 }
 
 html,
 body {
   padding: 0;
   margin: 0;
+}
+
+body {
+  color: white;
 }
 
 a {
@@ -55,19 +60,14 @@ html {
   scroll-behavior: smooth;
 }
 
-
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
-  body {
-    color: white;
-    background: black;
-  }
 }
 
 .radialBackground {
-  background-image: radial-gradient( #26282C 3px, rgba(0,0,0,0) 4px );
+  background-image: radial-gradient(#26282c 3px, rgba(0, 0, 0, 0) 4px);
   background-size: 10px 10px;
   /* backdrop-filter: brightness(100%) blur(3px); */
   background-position: 50% 50%;
@@ -75,9 +75,8 @@ html {
 }
 
 .radialBackground_alt {
-  background-image: radial-gradient( rgba(0,0,0,0) 2px, #26282C 2px );
+  background-image: radial-gradient(rgba(0, 0, 0, 0) 2px, #26282c 2px);
   background-size: 7px 7px;
   backdrop-filter: brightness(100%) blur(10px);
   background-position: 50% 50%;
 }
-
